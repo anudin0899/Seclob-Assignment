@@ -70,12 +70,12 @@
   padding: 20px;
   margin-bottom: 20px;
 }
-.login_wrapper .login .login-left .bottom-section a {
+.login_wrapper .login .login-left .bottom-section span {
   color: #fff;
   width: 44px;
   height: 44px;
 }
-.login_wrapper .login .login-left .bottom-section a .icon {
+.login_wrapper .login .login-left .bottom-section span .icon {
   font-size: 34px;
 }
 .login_wrapper .login .login-right {
@@ -128,7 +128,7 @@
   justify-content: center;
   gap: 5px;
 }
-.login_wrapper .login .login-right .login-row .login-by-cred .signup a {
+.login_wrapper .login .login-right .login-row .login-by-cred .signup span {
   color: #605BFF;
 }
 .login_wrapper .login .login-right .login-row .login-by-cred .login-box {
@@ -178,7 +178,7 @@
 .login_wrapper .login .login-right .login-row .login-by-cred .login-box form .form-input input:focus::placeholder {
   color: #111;
 }
-.login_wrapper .login .login-right .login-row .login-by-cred .login-box form .form-input a {
+.login_wrapper .login .login-right .login-row .login-by-cred .login-box form .form-input span {
   color: #605BFF;
 }
 .login_wrapper .login .login-right .login-row .login-by-cred .login-box form .form-input button {

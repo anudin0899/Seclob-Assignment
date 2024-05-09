@@ -29,10 +29,10 @@ const Login = () => {
                     </div>
 
                     <div className='bottom-section'>
-                        <a href="#"><GitHubIcon className='icon' /></a>
-                        <a href="#"><TwitterIcon className='icon' /></a>
-                        <a href="#"><FacebookRoundedIcon className='icon' /></a>
-                        <a href="#"><InstagramIcon className='icon' /></a>
+                        <span><GitHubIcon className='icon' /></span>
+                        <span><TwitterIcon className='icon' /></span>
+                        <span><FacebookRoundedIcon className='icon' /></span>
+                        <span><InstagramIcon className='icon' /></span>
                     </div>
 
                 </div>
@@ -57,15 +57,15 @@ const Login = () => {
                             <div className='login-box'>
                                 <form >
                                     <div className='form-input'>
-                                        <label >Email address</label>
+                                        <label htmlFor="">Email address</label>
                                         <input type="text" placeholder='email address' />
                                     </div>
                                     <div className='form-input'>
-                                        <label >Password</label>
+                                        <label htmlFor="">Password</label>
                                         <input type="password" placeholder='password' />
                                     </div>
                                     <div className='form-input'>
-                                        <a href="#">Forgot password ?</a>
+                                        <span>Forgot password ?</span>
                                     </div>
                                     <div className='form-input'>
                                         <button  onClick={() =>navigate('/dashboard')}>Sign In</button>
@@ -76,7 +76,7 @@ const Login = () => {
 
                             <div className='signup'>
                                 <span>Don't have an account ?</span>
-                                <a href="">Register here</a>
+                                <span>Register here</span>
                             </div>
                         </div>
                     </div>
