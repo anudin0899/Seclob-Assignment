@@ -1,0 +1,55 @@
+.box {
+  width: 600px;
+  height: 360px;
+  background-color: #fff;
+  padding: 15px;
+}
+.box form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.box form .form-image {
+  width: 560px;
+  height: 250px;
+  border: 1px dashed #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.box form .form-image label {
+  cursor: pointer;
+}
+.box form .form-image label img {
+  width: 30px;
+  height: 30px;
+}
+.box form .form-image .link {
+  color: #605BFF;
+}
+.box form .form-image input {
+  display: none;
+}
+.box form .form-button {
+  width: 100%;
+  background-color: #605BFF;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.box form .form-button button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}/*# sourceMappingURL=UploadFrame.css.map */

@@ -1,0 +1,63 @@
+.box {
+    width: 600px;
+    height: 360px;
+    background-color: #fff;
+    padding: 15px;
+
+    form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+        .form-image {
+            width: 560px;
+            height: 250px;
+            border: 1px dashed #EBEBEB;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            label {
+                cursor: pointer;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            .link {
+                color: #605BFF;
+            }
+
+            input {
+                display: none;
+            }
+        }
+
+        .form-button {
+            width: 100%;
+            background-color: #605BFF;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+
+            button {
+                background: none;
+                outline: none;
+                border: none;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.Header {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  background: #F8FAFF;
+}
+.Header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 40px;
+  gap: 10px;
+}
+.Header .wrapper .left {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border-radius: 5px;
+  padding: 0px;
+}
+.Header .wrapper .left .hideBtn {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .Header .wrapper .left .hideBtn {
+    display: contents;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Header .wrapper .left .hideBtn {
+    display: contents;
+  }
+}
+.Header .wrapper .left span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.Header .wrapper .left h1 {
+  padding: 0 10px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.Header .wrapper .right {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.Header .wrapper .right img {
+  border-radius: 100%;
+}/*# sourceMappingURL=Header.css.map */

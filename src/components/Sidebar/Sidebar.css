@@ -1,0 +1,123 @@
+.side-menu {
+  width: 218px;
+  transition: 0.3s ease-out;
+}
+.side-menu .back-arrow {
+  right: 0;
+}
+.side-menu .back-arrow .icon {
+  color: #333;
+}
+.side-menu .back-arrow .icon:hover {
+  color: rgb(14, 140, 224);
+}
+
+.side-menu,
+.inactive {
+  position: fixed;
+  background: #fff;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+.side-menu .icon,
+.inactive .icon {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #9A9AA9;
+}
+.side-menu .link,
+.inactive .link {
+  text-decoration: none;
+  color: #fff;
+}
+.side-menu .top-section,
+.inactive .top-section {
+  position: relative;
+}
+.side-menu .top-section .logo,
+.inactive .top-section .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.side-menu .top-section .logo span,
+.inactive .top-section .logo span {
+  width: 42px;
+  height: 42px;
+  background: #605BFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 100%;
+}
+.side-menu .top-section .logo h1,
+.inactive .top-section .logo h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.side-menu .top-section .back-arrow,
+.inactive .top-section .back-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 6px;
+  border-radius: 100%;
+  background-color: #ccc;
+}
+.side-menu .main-menu,
+.inactive .main-menu {
+  margin: 5px 0;
+}
+.side-menu .main-menu .menu-item,
+.inactive .main-menu .menu-item {
+  display: block;
+  color: #9A9AA9;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.side-menu .main-menu .menu-item span,
+.inactive .main-menu .menu-item span {
+  position: absolute;
+  display: inline-block;
+  line-height: 30px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+.side-menu .main-menu .menu-item.active,
+.inactive .main-menu .menu-item.active {
+  border-radius: 5px;
+  color: #605BFF;
+  margin-top: 10px;
+}
+.side-menu .main-menu .menu-item.active .menu-icon,
+.inactive .main-menu .menu-item.active .menu-icon {
+  color: #605BFF;
+}
+.side-menu .main-menu .menu-icon,
+.inactive .main-menu .menu-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  color: #9A9AA9;
+}
+.side-menu .main-menu .active,
+.inactive .main-menu .active {
+  max-height: 200px;
+}/*# sourceMappingURL=Sidebar.css.map */
