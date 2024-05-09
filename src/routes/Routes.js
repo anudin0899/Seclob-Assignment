@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from '../Page/Login/Login';
-import { Upload } from '@mui/icons-material';
 
 const UploadPage = lazy(() => import('../Page/Upload/Upload'));
 const DashboardPage = lazy(() => import('../Page/Dashboard/Dashboard'));

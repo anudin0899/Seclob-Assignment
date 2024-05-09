@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import "./Upload.css"
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Header from '../../components/Header/Header';
@@ -25,10 +25,10 @@ const Home = () => {
                 <div className={`homeContainer ${inactive ? `homeContainer` : 'non_inactive'}`}>
                     <Header title='Upload CSV' onCollapse={(inactive) => setInactive(inactive)} />
                     <div className='section-row'>
-                        <UploadFrame Data={setExcelFile}/>
+                        <UploadFrame Data={setExcelFile} />
                     </div>
                     <div className='section-row'>
-                        <Table title="Upload" excelData={excelFile} updateExcelData={updateExcelData}/>
+                        <Table title="Upload" excelData={excelFile} updateExcelData={updateExcelData} />
                     </div>
 
 

@@ -29,10 +29,10 @@ const Login = () => {
                     </div>
 
                     <div className='bottom-section'>
-                        <a href=""><GitHubIcon className='icon' /></a>
-                        <a href=""><TwitterIcon className='icon' /></a>
-                        <a href=""><FacebookRoundedIcon className='icon' /></a>
-                        <a href=""><InstagramIcon className='icon' /></a>
+                        <a href="#"><GitHubIcon className='icon' /></a>
+                        <a href="#"><TwitterIcon className='icon' /></a>
+                        <a href="#"><FacebookRoundedIcon className='icon' /></a>
+                        <a href="#"><InstagramIcon className='icon' /></a>
                     </div>
 
                 </div>
@@ -55,20 +55,20 @@ const Login = () => {
                     <div className='login-row'>
                         <div className='login-by-cred'>
                             <div className='login-box'>
-                                <form action="submit">
+                                <form >
                                     <div className='form-input'>
-                                        <label htmlFor="">Email address</label>
+                                        <label >Email address</label>
                                         <input type="text" placeholder='email address' />
                                     </div>
                                     <div className='form-input'>
-                                        <label htmlFor="">Password</label>
+                                        <label >Password</label>
                                         <input type="password" placeholder='password' />
                                     </div>
                                     <div className='form-input'>
-                                        <a href="">Forgot password ?</a>
+                                        <a href="#">Forgot password ?</a>
                                     </div>
                                     <div className='form-input'>
-                                        <button type='submit' onClick={() =>navigate('/dashboard')}>Sign In</button>
+                                        <button  onClick={() =>navigate('/dashboard')}>Sign In</button>
                                     </div>
                                 </form>
 

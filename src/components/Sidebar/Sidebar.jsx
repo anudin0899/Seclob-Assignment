@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Sidebar.css'
 import GridViewRoundedIcon from '@mui/icons-material/GridViewRounded';
 import TimelineRoundedIcon from '@mui/icons-material/TimelineRounded';
