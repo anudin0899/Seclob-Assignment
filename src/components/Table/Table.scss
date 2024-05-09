@@ -1,5 +1,6 @@
 .table-wrap {
     width: 100%;
+    min-height: 500px;
     padding: 0 40px;
     background-color: transparent;
 
@@ -21,7 +22,8 @@
         table {
             width: 100%;
             border: none;
-            border-collapse: collapse;
+            border-collapse: separate;
+            border-spacing: 0 10px; 
 
             thead {
                 th {
@@ -37,6 +39,7 @@
                     background: #fff;
                     border: none;
                     border-radius: 5px;
+                    
 
                     td {
                         padding: 10px;

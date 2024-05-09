@@ -1,5 +1,6 @@
 .table-wrap {
   width: 100%;
+  min-height: 500px;
   padding: 0 40px;
   background-color: transparent;
 }
@@ -19,7 +20,8 @@
 .table-wrap .table-data table {
   width: 100%;
   border: none;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0 10px;
 }
 .table-wrap .table-data table thead th {
   padding: 10px;

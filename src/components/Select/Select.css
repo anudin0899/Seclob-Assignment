@@ -1,0 +1,65 @@
+.select-wrap .selectOption {
+  position: relative;
+  width: 200px;
+  height: auto;
+  display: flex;
+}
+.select-wrap .selectOption input {
+  position: relative;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+.select-wrap .selectOption .icon {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 25px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  transition: transform 0.2s ease;
+  pointer-events: none;
+}
+.select-wrap .selectOption .icon.active {
+  transform: translateY(-50%) rotate(0deg);
+}
+.select-wrap .selectOption .options {
+  position: absolute;
+  width: 100%;
+  max-height: 220px;
+  background: #fff;
+  border-radius: 10px;
+  top: 100%;
+  transform: translateY(0);
+  overflow: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+  color: #111;
+  z-index: 999;
+}
+.select-wrap .selectOption .options.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(5%);
+}
+.select-wrap .selectOption .options li {
+  list-style: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.select-wrap .selectOption .options li:hover {
+  background: #f5f5f5;
+}/*# sourceMappingURL=Select.css.map */

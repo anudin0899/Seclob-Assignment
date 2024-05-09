@@ -15,7 +15,7 @@ const menuItem = [
         name: 'Dashboard',
         icon: <GridViewRoundedIcon />,
         to: '/dashboard',
-        exact: true,
+        
     },
     {
         name: 'Upload',

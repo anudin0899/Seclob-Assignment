@@ -11,7 +11,7 @@ const Routing = () => {
         <Router>
             <Suspense fallback={<div className='flex'>Loading...</div>}>
                 <Routes>
-                    <Route path='/' element={<Login />} />
+                    <Route path='/' exact element={<Login />} />
                     <Route path='/dashboard' element={<DashboardPage />} />
                     <Route path='/upload' element={<UploadPage />} />
                 </Routes>

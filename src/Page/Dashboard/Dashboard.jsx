@@ -12,8 +12,8 @@ const Dashboard = () => {
         <div className="page_wrapper">
             <div className="home">
                 <Sidebar onCollapse={(inactive) => setInactive(inactive)} />
-                <div className={`homeContainer ${inactive ? `Con_inactive` : ''}`}>
-                    <Header title='Dashboard' />
+                <div className={`homeContainer ${inactive ? `homeContainer` : 'non_inactive'}`}>
+                    <Header title='Dashboard' onCollapse={(inactive) => setInactive(inactive)}/>
 
                 </div>
             </div>
