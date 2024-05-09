@@ -4,6 +4,7 @@ import Login from '../Page/Login/Login';
 
 const UploadPage = lazy(() => import('../Page/Upload/Upload'));
 const DashboardPage = lazy(() => import('../Page/Dashboard/Dashboard'));
+const NotFoundPage = lazy(() => import('../Page/NotFound/NotFound'));
 
 const Routing = () => {
     return (
@@ -13,6 +14,7 @@ const Routing = () => {
                     <Route path='/' exact element={<Login />} />
                     <Route path='/dashboard' element={<DashboardPage />} />
                     <Route path='/upload' element={<UploadPage />} />
+                    <Route path='*' element={<NotFoundPage />} />
                 </Routes>
             </Suspense>
         </Router>
