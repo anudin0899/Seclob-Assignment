@@ -9,7 +9,7 @@ const NotFoundPage = lazy(() => import('../Page/NotFound/NotFound'));
 const Routing = () => {
     return (
         <Router>
-            <Suspense fallback={<div className='flex'>Loading...</div>}>
+            <Suspense fallback={<div className='flex-center'>Loading...</div>}>
                 <Routes>
                     <Route path='/' exact element={<Login />} />
                     <Route path='/dashboard' element={<DashboardPage />} />

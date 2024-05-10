@@ -4,6 +4,15 @@
     padding: 0 40px;
     background-color: transparent;
 
+    @media only screen and (max-width: 767px) {
+        padding: 0 10px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        padding: 0 20px;
+    }
+
+
     .title {
         padding: 30px 15px;
 
@@ -19,11 +28,21 @@
         padding: 16px;
         border-radius: 5px;
 
+        @media only screen and (max-width: 767px) {
+            overflow: auto;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            overflow: auto;
+        }
+
         table {
             width: 100%;
             border: none;
             border-collapse: separate;
-            border-spacing: 0 10px; 
+            border-spacing: 0 10px;
+
+
 
             thead {
                 th {
@@ -39,13 +58,13 @@
                     background: #fff;
                     border: none;
                     border-radius: 5px;
-                    
+
 
                     td {
                         padding: 10px;
                     }
 
-                    .link{
+                    .link {
                         color: #605BFF;
                         text-decoration: underline;
                     }
@@ -65,10 +84,11 @@
                             color: #fff;
                             border-radius: 5px;
 
-                            .icon{
+                            .icon {
                                 width: 16px;
                                 height: 16px;
                             }
+
                             span {
                                 font-size: 14px;
                                 font-weight: 400;

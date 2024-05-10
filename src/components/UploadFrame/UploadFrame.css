@@ -4,6 +4,16 @@
   background-color: #fff;
   padding: 15px;
 }
+@media only screen and (max-width: 767px) {
+  .box {
+    max-width: 380px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .box {
+    width: 400px;
+  }
+}
 .box form {
   display: flex;
   align-items: center;
@@ -19,6 +29,16 @@
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .box form .form-image {
+    max-width: 340px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .box form .form-image {
+    width: 360px;
+  }
 }
 .box form .form-image label {
   cursor: pointer;
